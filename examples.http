@@ -1,0 +1,28 @@
+# 200
+GET http://localhost:8080/ok
+Accept: application/json
+username: Cow31337Killer
+
+###
+
+# 403
+GET http://localhost:8080/nok
+Accept: application/json
+username: Cow31337Killer
+
+###
+
+# 200
+GET http://localhost:8080/ok
+Accept: application/json
+username: admin
+
+###
+
+# 200
+GET http://localhost:8080/nok
+Accept: application/json
+username: admin
+
+###
+
